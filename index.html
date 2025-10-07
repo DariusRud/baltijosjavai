@@ -37,24 +37,25 @@
         <header class="flex justify-start items-center p-4 shadow-md w-full header-bg">
             <div class="flex items-center">
                  <div class="flex items-center space-x-3">
-                    <!-- SVG Logo Icon -->
-                    <svg class="h-10 w-10 text-yellow-600" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M13.2,12.8c0.8-0.5,1.2-1.4,1.2-2.3c0-1.6-1.3-2.9-2.9-2.9S8.6,8.9,8.6,10.5c0,0.9,0.4,1.8,1.2,2.3 C8.4,13.5,7.6,15,7.6,16.7c0,1.6,1.3,2.9,2.9,2.9s2.9-1.3,2.9-2.9C13.4,15,12.6,13.5,13.2,12.8z M10.5,18.1c-0.8,0-1.4-0.6-1.4-1.4 c0-1.2,0.6-2.4,1.4-3.1c0.8,0.7,1.4,1.9,1.4,3.1C11.9,17.5,11.3,18.1,10.5,18.1z"/>
-                        <path d="M16.5,13.7c-0.4,0.3-0.7,0.7-0.9,1.1c-0.8-0.4-1.7-0.6-2.6-0.6c-0.9,0-1.8,0.2-2.6,0.6c-0.2-0.4-0.5-0.8-0.9-1.1 C8.1,13,7,14.3,7,15.9c0,1.9,1.6,3.5,3.5,3.5s3.5-1.6,3.5-3.5C14,14.3,12.9,13,11.5,12.2C12.9,11.5,14,10.1,14,8.5 c0-1.9-1.6-3.5-3.5-3.5S7,6.6,7,8.5c0,1.6,1.1,2.9,2.5,3.4c0.4-0.3,0.7-0.7,0.9-1.1c0.8,0.4,1.7,0.6,2.6,0.6c0.9,0,1.8-0.2,2.6-0.6 c0.2,0.4,0.5,0.8,0.9,1.1c1.4,0.7,2.5,2.1,2.5,3.7C17.5,17.3,16.5,15.1,16.5,13.7z"/>
-                    </svg>
-                    <div class="flex flex-col leading-tight">
-                        <span class="font-bold text-gray-700 text-sm tracking-wider">BALTIJOS</span>
-                        <span class="font-semibold text-yellow-700 text-lg">javai</span>
-                    </div>
+                    <!-- Real Logo Image -->
+                    <img src="data:image/png;base64,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" alt="Baltijos Javai Logotipas" class="h-10">
                 </div>
             </div>
         </header>
 
         <!-- Main Content -->
         <main class="flex-1 flex flex-col items-center justify-center p-6">
-            <div class="w-full max-w-4xl mx-auto">
-                <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <div class="w-full max-w-5xl mx-auto">
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 text-center">
                     
+                    <!-- Excel Importo Failai App -->
+                    <a href="https://operations.baltijosjavai.lt/form/automations" target="_blank" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                        <div class="w-16 h-16 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
+                            <i data-lucide="file-spreadsheet" class="w-8 h-8"></i>
+                        </div>
+                        <h3 class="font-semibold text-gray-800">Excel Importo failai</h3>
+                    </a>
+
                     <!-- Sutarčių App -->
                     <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
                         <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
@@ -72,7 +73,7 @@
                     </a>
 
                     <!-- Mėginių App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                    <a href="https://baltijos-javai-meginiai.vercel.app/" target="_blank" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
                          <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                             <i data-lucide="flask-conical" class="w-8 h-8"></i>
                         </div>
