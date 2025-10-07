@@ -34,7 +34,7 @@
     
     <div class="flex flex-col h-screen">
         <!-- Header -->
-        <header class="flex justify-between items-center p-4 shadow-md w-full header-bg">
+        <header class="flex justify-start items-center p-4 shadow-md w-full header-bg">
             <div class="flex items-center">
                  <div class="flex items-center space-x-3">
                     <!-- SVG Logo Icon -->
@@ -48,60 +48,43 @@
                     </div>
                 </div>
             </div>
-            <div class="flex items-center">
-                 <div class="relative">
-                    <button class="flex items-center space-x-2 relative focus:outline-none">
-                        <img src="https://placehold.co/40x40/E2E8F0/4A5568?text=V" alt="Vartotojo avataras" class="w-10 h-10 rounded-full">
-                        <span class="hidden md:block font-medium text-gray-700">Vardenis Pavardenis</span>
-                        <i data-lucide="chevron-down" class="hidden md:block w-4 h-4 text-gray-700"></i>
-                    </button>
-                </div>
-            </div>
         </header>
 
         <!-- Main Content -->
         <main class="flex-1 flex flex-col items-center justify-center p-6">
             <div class="w-full max-w-4xl mx-auto">
-                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 text-center">
+                <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
                     
                     <!-- Sutarčių App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center aspect-square">
-                        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4">
+                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                        <div class="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                             <i data-lucide="file-text" class="w-8 h-8"></i>
                         </div>
-                        <h3 class="font-semibold text-gray-800">Sutartys</h3>
+                        <h3 class="font-semibold text-gray-800 text-sm leading-tight">Nepasirašytos sutartys ir priedai</h3>
                     </a>
 
                     <!-- Mokėjimų App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center aspect-square">
-                         <div class="w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mb-4">
+                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                         <div class="w-16 h-16 bg-yellow-100 text-yellow-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                             <i data-lucide="credit-card" class="w-8 h-8"></i>
                         </div>
                         <h3 class="font-semibold text-gray-800">Mokėjimai</h3>
                     </a>
 
                     <!-- Mėginių App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center aspect-square">
-                         <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-4">
+                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                         <div class="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                             <i data-lucide="flask-conical" class="w-8 h-8"></i>
                         </div>
-                        <h3 class="font-semibold text-gray-800">Mėginiai</h3>
+                        <h3 class="font-semibold text-gray-800">Mėginių siuntimas</h3>
                     </a>
 
                     <!-- Suvestinės App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center aspect-square">
-                         <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4">
+                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center h-48">
+                         <div class="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4 flex-shrink-0">
                             <i data-lucide="bar-chart-2" class="w-8 h-8"></i>
                         </div>
                         <h3 class="font-semibold text-gray-800">Suvestinė</h3>
-                    </a>
-
-                    <!-- Nustatymų App -->
-                    <a href="#" class="app-card border border-gray-200/50 p-6 rounded-lg shadow-sm flex flex-col items-center justify-center aspect-square">
-                         <div class="w-16 h-16 bg-gray-200 text-gray-600 rounded-full flex items-center justify-center mb-4">
-                            <i data-lucide="settings" class="w-8 h-8"></i>
-                        </div>
-                        <h3 class="font-semibold text-gray-800">Nustatymai</h3>
                     </a>
 
                 </div>
